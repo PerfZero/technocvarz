@@ -1,0 +1,8 @@
+<svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_427_3444" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="19" height="20">
+<rect width="19" height="19" transform="matrix(-1 0 0 1 19 0.5)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_427_3444)">
+<path d="M4.98284 14.4684L12.7808 6.67797V13.7604H13.9683V4.65625H4.86409V5.84375H11.9465L4.15615 13.6417L4.98284 14.4684Z" fill="white"/>
+</g>
+</svg>

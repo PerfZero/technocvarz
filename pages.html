@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура сайта - ТД ТехноКварц</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+</head>
+<body>
+  
+
+    <main class="main">
+        <section class="pages-overview">
+            <div class="container">
+                <h1 class="pages-overview__title">Структура сайта</h1>
+                <div class="pages-overview__grid">
+                    
+                    <!-- Готовые страницы -->
+                    <div class="page-card page-card--ready">
+                        <div class="page-card__status">Готово</div>
+                        <h3 class="page-card__title">Главная страница</h3>
+                        <p class="page-card__description">Основная страница сайта с информацией о компании, продукции и услугах</p>
+                        <a href="index.html" class="page-card__link">Перейти на страницу</a>
+                    </div>
+
+                    <div class="page-card page-card--ready">
+                        <div class="page-card__status">Готово</div>
+                        <h3 class="page-card__title">Каталог товаров</h3>
+                        <p class="page-card__description">Каталог с категориями товаров, фильтрацией и карточками продукции</p>
+                        <a href="catalog.html" class="page-card__link">Перейти на страницу</a>
+                    </div>
+
+                    <!-- Страницы в разработке -->
+                    <div class="page-card page-card--pending">
+                        <div class="page-card__status">Ожидать сегодня</div>
+                        <h3 class="page-card__title">Страница товара</h3>
+                        <p class="page-card__description">Детальная информация о товаре с фотографиями, характеристиками и возможностью заказа</p>
+                        <div class="page-card__link page-card__link--disabled">В разработке</div>
+                    </div>
+
+                    <div class="page-card page-card--pending">
+                        <div class="page-card__status">Ожидать сегодня</div>
+                        <h3 class="page-card__title">О компании</h3>
+                        <p class="page-card__description">Информация о компании, история, команда, достижения и сертификаты</p>
+                        <div class="page-card__link page-card__link--disabled">В разработке</div>
+                    </div>
+
+                    <div class="page-card page-card--pending">
+                        <div class="page-card__status">Ожидать сегодня</div>
+                        <h3 class="page-card__title">Доставка</h3>
+                        <p class="page-card__description">Условия доставки, зоны покрытия, стоимость и сроки доставки</p>
+                        <div class="page-card__link page-card__link--disabled">В разработке</div>
+                    </div>
+
+                    <div class="page-card page-card--pending">
+                        <div class="page-card__status">Ожидать сегодня</div>
+                        <h3 class="page-card__title">Контакты</h3>
+                        <p class="page-card__description">Контактная информация, адреса офисов, карта проезда и форма обратной связи</p>
+                        <div class="page-card__link page-card__link--disabled">В разработке</div>
+                    </div>
+
+                </div>
+                
+                <div class="pages-overview__stats">
+                    <div class="stat-item">
+                        <span class="stat-item__number">2</span>
+                        <span class="stat-item__label">Готовые страницы</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__number">4</span>
+                        <span class="stat-item__label">В разработке</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__number">6</span>
+                        <span class="stat-item__label">Всего страниц</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__copyright">© 2025 ТД ТехноКварц. Все права защищены</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
