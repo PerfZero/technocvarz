@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - ТД ТехноКварц</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="topbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="Технокварц" />
+                </a>
+                <div class="mobile-actions">
+                    <button class="icon-link mobile-search search-toggle" type="button" aria-label="Поиск">
+                        <img class="icon-img" src="assets/images/search.svg" alt="" />
+                    </button>
+                    <button class="btn btn--primary mobile-catalog" type="button">
+                        <img src="assets/images/menu.svg" alt="" /> Каталог
+                    </button>
+                </div>
+                <div class="location">
+                    <img class="location__icon" src="assets/images/location.svg" alt="" />
+                    <button class="location__btn" type="button">Воронеж</button>
+                </div>
+                <a class="contact" href="mailto:info@tehnokvarc.ru">
+                    <img class="icon-img" src="assets/images/mail.svg" alt="" />
+                    <span>info@tehnokvarc.ru</span>
+                </a>
+                <a class="contacts" href="tel:+79552223344">
+                    <img class="icon-img" src="assets/images/phone.svg" alt="" />
+                    <span>+7 955 222 33 44</span>
+                </a>
+                <button class="btn btn--ghost" type="button">Обратный звонок</button>
+                <a class="icon-link" href="#">
+                    <img class="icon-img" src="assets/images/favorite.svg" alt="" />
+                    <span>Избранное</span>
+                </a>
+                <a class="icon-link" href="#">
+                    <img class="icon-img" src="assets/images/cart.svg" alt="" />
+                    <span>Корзина</span>
+                </a>
+                <a class="icon-link" href="#">
+                    <img class="icon-img" src="assets/images/exit.svg" alt="" />
+                </a>
+                <button class="btn mobile-burger" type="button">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="menubar">
+            <div class="container">
+                <div class="menubar__left">
+                    <button class="search-toggle" type="button" aria-label="Поиск">
+                        <img class="icon-img" src="assets/images/search.svg" alt="" />
+                    </button>
+                    <button class="btn btn--primary desktop-catalog" type="button">
+                        <img src="assets/images/menu.svg" alt="" /> Каталог
+                    </button>
+                </div>
+                <nav class="main-nav">
+                    <a href="#">Цены</a>
+                    <a href="#">Производство</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Как купить</a>
+                    <a href="#">О компании</a>
+                    <a href="#" class="active">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="index.html">Главная</a>
+                <span>/</span>
+                <span>Контакты</span>
+            </nav>
+
+            <div class="contacts-page">
+                <h1 class="contacts-page__title">Контакты ТД "Технокварц" в городе Воронеж</h1>
+                
+                <!-- Main Office -->
+                <section class="main-office">
+                    <div class="office-info">
+                        <h2 class="office-info__title">Воронеж</h2>
+                        <div class="office-details">
+                            <div class="office-detail">
+                                <span class="office-detail__label">Адрес:</span>
+                                <span class="office-detail__value">г. Воронеж, ул Хользунова 40е</span>
+                            </div>
+                            <div class="office-detail">
+                                <span class="office-detail__label">Телефон:</span>
+                                <a href="tel:+74732059292" class="office-detail__value office-detail__value--link">+7 (473) 205-92-92</a>
+                            </div>
+                            <div class="office-detail">
+                                <span class="office-detail__label">Время работы:</span>
+                                <span class="office-detail__value">Пн-Пт: 9:00-18:00</span>
+                            </div>
+                            <div class="office-detail">
+                                <span class="office-detail__label">Электронная почта:</span>
+                                <a href="mailto:info@tehnokvarc.ru" class="office-detail__value office-detail__value--link">info@tehnokvarc.ru</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="office-map">
+                        <div class="map-placeholder">
+                            <p>Карта офиса в Воронеже</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Regional Offices -->
+                <section class="regional-offices">
+                    <h2 class="regional-offices__title">Региональные представительства</h2>
+                    <p class="regional-offices__text">Наша компания имеет широкую сеть региональных представительств и дилеров. Вы можете обратиться в ближайший к Вам офис для получения дополнительных консультаций. Поставки кварцевого песка осуществляются из города Воронеж. Поставки холодного асфальта осуществляются из города Воронеж и Москва.</p>
+                    
+                    <div class="offices-grid">
+                        <!-- Central Office -->
+                        <div class="office-card">
+                            <div class="office-card__image">
+                                <img src="assets/images/catalog_1.jpg" alt="Центральный офис">
+                            </div>
+                            <div class="office-card__content">
+                                <h3 class="office-card__title">Центральный офис</h3>
+                                <div class="office-card__info">
+                                    <div class="office-card__detail">
+                                        <strong>Адрес:</strong>
+                                        <span>г. Воронеж, ул Хользунова 40е</span>
+                                    </div>
+                                    <div class="office-card__detail">
+                                        <strong>Часы работы:</strong>
+                                        <span>Пн-Пт: 9:00-18:00</span>
+                                    </div>
+                                    <div class="office-card__detail">
+                                        <strong>Контакты:</strong>
+                                        <span>
+                                            Тел.: <a href="tel:+74732059292">+7 (473) 205-92-92</a><br>
+                                            <a href="mailto:info@tehnokvarc.ru">info@tehnokvarc.ru</a>
+                                        </span>
+                                    </div>
+                                    <button class="office-card__map-btn">Показать на карте</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Production -->
+                        <div class="office-card">
+                            <div class="office-card__image">
+                                <img src="assets/images/catalog_2.jpg" alt="Производство">
+                            </div>
+                            <div class="office-card__content">
+                                <h3 class="office-card__title">Производство</h3>
+                                <div class="office-card__info">
+                                    <div class="office-card__detail">
+                                        <strong>Адрес:</strong>
+                                        <span>п. Латное, ул. Cтроителей 8</span>
+                                    </div>
+                                    <div class="office-card__detail">
+                                        <strong>Часы работы:</strong>
+                                        <span>Пн-Пт: 9:00-18:00<br>Cб-Вс: Выходной</span>
+                                    </div>
+                                    <div class="office-card__detail">
+                                        <strong>Контакты:</strong>
+                                        <span>
+                                            Тел.: <a href="tel:+74732059292">+7 (473) 205-92-92</a><br>
+                                            <a href="mailto:info@tehnokvarc.ru">info@tehnokvarc.ru</a>
+                                        </span>
+                                    </div>
+                                    <button class="office-card__map-btn">Показать на карте</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Moscow Office -->
+                        <div class="office-card">
+                            <div class="office-card__image">
+                                <img src="assets/images/about.png" alt="Московский офис">
+                            </div>
+                            <div class="office-card__content">
+                                <h3 class="office-card__title">Московский офис</h3>
+                                <div class="office-card__info">
+                                    <div class="office-card__detail">
+                                        <strong>Адрес:</strong>
+                                        <span>Московская область, Мытищенский район, деревня Сухарево, д. 140, стр 14</span>
+                                    </div>
+                                    <div class="office-card__detail">
+                                        <strong>Часы работы:</strong>
+                                        <span>Пн-Пт: 9:30-18:00<br>Cб-Вс: Выходной</span>
+                                    </div>
+                                    <div class="office-card__detail">
+                                        <strong>Контакты:</strong>
+                                        <span>
+                                            Тел.: <a href="tel:+79670255960">+7 (967) 025-59-60</a><br>
+                                            <a href="mailto:info@tehnokvarc.ru">info@tehnokvarc.ru</a>
+                                        </span>
+                                    </div>
+                                    <button class="office-card__map-btn">Показать на карте</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="production-note">
+                        <p><strong>Производство и оптовая отгрузка:</strong> Латное, ул. Cтроителей 8</p>
+                    </div>
+                </section>
+
+                <!-- Contact Form -->
+                <section class="contact-form-section">
+                    <h2 class="contact-form-section__title">Обратная связь</h2>
+                    <form class="contact-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Ваше имя</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Ваш телефон</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" required>
+                            </div>
+                            <div class="form-group form-group--full">
+                                <label for="email" class="form-label">Эл. почта</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group form-group--full">
+                                <label for="message" class="form-label">Ваш вопрос</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="4" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checkbox-input" required>
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Я согласен(а) на обработку персональных данных</span>
+                            </label>
+                            <button type="submit" class="btn btn--primary">Отправить</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="about__contacts-wrapper">
+        <div class="about__contacts">
+          <div class="about__contacts-item">
+            <h3 class="about__contacts-title"><img src="assets/images/loccaton.svg" alt="">ОФИС</h3>
+            <p class="about__contacts-text">г. Воронеж, ул Хользунова 40е</p>
+            <p class="about__contacts-time">ПН-ПТ с 8:00 до 18:00</p>
+          </div>
+        </div>
+        <div class="about__contacts">
+          <div class="about__contacts-item">
+            <h3 class="about__contacts-title"><img src="assets/images/loccaton.svg" alt="">ЗАВОД</h3>
+            <p class="about__contacts-text">Московская область, Мытищенский район, деревня Сухарево, д. 140, стр. 14</p>
+            </div>
+          </div>
+        </div>
+          <div class="footer__map" id="yandex-map"></div>
+     
+        
+        <div class="footer__content">
+          <div class="container">
+            <div class="footer__grid">
+              <div class="footer__contacts">
+                <a href="mailto:info@tehnokvarc.ru" class="footer__email">info@tehnokvarc.ru</a>
+                <a href="tel:+79552223344" class="footer__phone">+7 955 222 33 44</a>
+                <button class="footer__callback-btn">
+                 
+                  Обратный звонок
+                  <img src="assets/images/phone_footer.svg" alt="">
+                </button>
+                
+                <div class="footer__social">
+                  <a href="#" class="footer__social-link">
+                   <img src="assets/images/vk.svg" alt="">
+                  </a>
+                  <a href="#" class="footer__social-link">
+                  <img src="assets/images/youtube.svg" alt="">
+                  </a>
+                  <a href="#" class="footer__social-link">
+                  <img src="assets/images/wt.svg" alt="">
+                  </a>
+                  <a href="#" class="footer__social-link">
+                  <img src="assets/images/tg.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              
+              <div class="footer__column">
+                <h3 class="footer__column-title">КАТАЛОГ</h3>
+                <ul class="footer__links">
+                  <li><a href="#">Кварцевый песок</a></li>
+                  <li><a href="#">Кварцевый гравий</a></li>
+                  <li><a href="#">Кварцевого песка фракции</a></li>
+                  <li><a href="#">Песок навалом</a></li>
+                  <li><a href="#">Холодный асфальт</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer__column">
+                <h3 class="footer__column-title">ПРАВОВАЯ ИНФОРМАЦИЯ</h3>
+                <ul class="footer__links">
+                  <li><a href="#">Политика конфиденциальности</a></li>
+                  <li><a href="#">Политика конфиденциальности</a></li>
+                  <li><a href="#">Политика конфиденциальности</a></li>
+                  <li><a href="#" class="footer__link--accent">Обращение в отдел качества</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer__column">
+                <h3 class="footer__column-title">НАВИГАЦИЯ</h3>
+                <ul class="footer__links">
+                  <li><a href="#">Цены</a></li>
+                  <li><a href="#">Производство</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="footer__bottom">
+              <div class="footer__copyright">© 2025 ТД ТехноКварц. Все права защищены</div>
+              <div class="footer__payments">
+                <img src="assets/images/payment_1.svg" alt="Visa" class="footer__payment-icon">
+                <img src="assets/images/payment_2.svg" alt="Mastercard" class="footer__payment-icon">
+                <img src="assets/images/payment_3.svg" alt="МИР" class="footer__payment-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>

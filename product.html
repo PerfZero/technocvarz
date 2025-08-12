@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Холодный асфальт - ТД ТехноКварц</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="topbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="Технокварц" />
+                </a>
+                <div class="mobile-actions">
+                    <button class="icon-link mobile-search search-toggle" type="button" aria-label="Поиск">
+                        <img class="icon-img" src="assets/images/search.svg" alt="" />
+                    </button>
+                    <button class="btn btn--primary mobile-catalog" type="button">
+                        <img src="assets/images/menu.svg" alt="" /> Каталог
+                    </button>
+                </div>
+                <div class="location">
+                    <img class="location__icon" src="assets/images/location.svg" alt="" />
+                    <button class="location__btn" type="button">Воронеж</button>
+                </div>
+                <a class="contact" href="mailto:info@tehnokvarc.ru">
+                    <img class="icon-img" src="assets/images/mail.svg" alt="" />
+                    <span>info@tehnokvarc.ru</span>
+                </a>
+                <a class="contacts" href="tel:+79552223344">
+                    <img class="icon-img" src="assets/images/phone.svg" alt="" />
+                    <span>+7 955 222 33 44</span>
+                </a>
+                <button class="btn btn--ghost" type="button">Обратный звонок</button>
+                <a class="icon-link" href="#">
+                    <img class="icon-img" src="assets/images/favorite.svg" alt="" />
+                    <span>Избранное</span>
+                </a>
+                <a class="icon-link" href="#">
+                    <img class="icon-img" src="assets/images/cart.svg" alt="" />
+                    <span>Корзина</span>
+                </a>
+                <a class="icon-link" href="#">
+                    <img class="icon-img" src="assets/images/exit.svg" alt="" />
+                </a>
+                <button class="btn mobile-burger" type="button">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="menubar">
+            <div class="container">
+                <div class="menubar__left">
+                    <button class="search-toggle" type="button" aria-label="Поиск">
+                        <img class="icon-img" src="assets/images/search.svg" alt="" />
+                    </button>
+                    <button class="btn btn--primary desktop-catalog" type="button">
+                        <img src="assets/images/menu.svg" alt="" /> Каталог
+                    </button>
+                </div>
+                <nav class="main-nav">
+                    <a href="#">Цены</a>
+                    <a href="#">Производство</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Как купить</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Липкая панель товара -->
+    <div class="product-sticky" id="productSticky">
+        <div class="container">
+            <div class="product-sticky__content">
+                <div class="product-sticky__info">
+                    <h3 class="product-sticky__title">Холодный асфальт (1 паллета / 35 мешков по 30 кг)</h3>
+                    <div class="product-sticky__details">
+                        <div class="status-badge status-badge--available">
+                            <img src="assets/images/nal.svg" alt="" />
+                            В наличии
+                        </div>
+                        <div class="product-info__sku">Артикул 648821</div>
+                    </div>
+                </div>
+                <div class="product-sticky__actions">
+                    <div class="product-price">
+                        <span class="product-price__amount">5 000</span>
+                        <span class="product-price__currency">Р.</span>
+                    </div>
+                    <div class="product-quantity">
+                        <button class="quantity-btn quantity-btn--minus" type="button">-</button>
+                        <input class="quantity-input" type="number" value="1" min="1">
+                        <button class="quantity-btn quantity-btn--plus" type="button">+</button>
+                    </div>
+                    <button class="btn--cart">
+                        <img src="assets/images/add_to_cart.svg" alt="" />
+                        В корзину
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="index.html">Главная</a>
+                <span>/</span>
+                <a href="catalog.html">Каталог товаров</a>
+                <span>/</span>
+                <a href="#">Холодный асфальт</a>
+                <span>/</span>
+                <span>Холодный асфальт (1 паллета / 35 мешков по 30 кг)</span>
+            </nav>
+
+            <div class="product-page">
+                <div class="product-page__left">
+                    <div class="product-info">
+                        <div class="product-info__header">
+                            <h1 class="product-info__title">Холодный асфальт  (1 паллета / 35 мешков по 30 кг)</h1>
+                            <button class="product-info__favorite" type="button">
+                                <img src="assets/images/favorite.svg" alt="В избранное" />
+                            </button>
+                        </div>
+                        
+                        <div class="product-info__status">
+                            <div class="status-badge status-badge--available">
+                                <img src="assets/images/nal.svg" alt="" />
+                                В наличии
+                            </div>
+                            <div class="product-info__sku">Артикул 648821</div>
+                        </div>
+
+                        <div class="product-gallery product-gallery--mobile">
+                            <div class="product-gallery__main swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/cat_prod_1.png" alt="Холодный асфальт" class="product-gallery__image" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/cat_prod_2.png" alt="Холодный асфальт" class="product-gallery__image" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/cat_prod_3.png" alt="Холодный асфальт" class="product-gallery__image" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                            
+                            <div class="product-gallery__thumbs swiper" thumbsSlider="">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="gallery-thumb">
+                                            <img src="assets/images/cat_prod_1.png" alt="Холодный асфальт" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="gallery-thumb">
+                                            <img src="assets/images/cat_prod_2.png" alt="Холодный асфальт" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="gallery-thumb">
+                                            <img src="assets/images/cat_prod_3.png" alt="Холодный асфальт" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-options">
+                            <div class="product-option">
+                                <div class="product-option__content">
+                                    <div class="product-option__left">
+                                        <span class="product-option__label">Фасовка</span>
+                                        <img src="assets/images/arrow_select.svg" alt="" class="product-option__arrow" />
+                                    </div>
+                                    <button class="product-option__selected" data-value="500">500 кг</button>
+                                </div>
+                                <div class="product-option__dropdown">
+                                    <div class="product-option__radio-group">
+                                        <label class="product-option__radio-item">
+                                            <input type="radio" name="fasovka" value="1000" class="product-option__radio" />
+                                            <span class="product-option__radio-text">1000 кг</span>
+                                        </label>
+                                        <label class="product-option__radio-item">
+                                            <input type="radio" name="fasovka" value="500" class="product-option__radio" checked />
+                                            <span class="product-option__radio-text">500 кг</span>
+                                        </label>
+                                        <label class="product-option__radio-item">
+                                            <input type="radio" name="fasovka" value="250" class="product-option__radio" />
+                                            <span class="product-option__radio-text">250 кг</span>
+                                        </label>
+                                        <label class="product-option__radio-item">
+                                            <input type="radio" name="fasovka" value="100" class="product-option__radio" />
+                                            <span class="product-option__radio-text">100 кг</span>
+                                        </label>
+                                        <label class="product-option__radio-item">
+                                            <input type="radio" name="fasovka" value="25" class="product-option__radio" />
+                                            <span class="product-option__radio-text">25 кг</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-option">
+                                <div class="product-option__content">
+                                    <div class="product-option__left">
+                                        <span class="product-option__label">Упаковка</span>
+                                    </div>
+                                    <button class="product-option__selected" data-value="mkp">МКР</button>
+                                </div>
+                                <div class="product-option__dropdown">
+                                    <button class="product-option__value" data-value="mkp">МКР</button>
+                                    <button class="product-option__value" data-value="bigbag">Big Bag</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-purchase">
+                            <div class="product-price">
+                                <span class="product-price__amount">5 000</span>
+                                <span class="product-price__currency">Р.</span>
+                            </div>
+                            
+                            <div class="product-quantity">
+                                <button class="quantity-btn quantity-btn--minus" type="button">-</button>
+                                <input class="quantity-input" type="number" value="1" min="1">
+                                <button class="quantity-btn quantity-btn--plus" type="button">+</button>
+                            </div>
+                            
+                            <button class="btn--cart">
+                                <img src="assets/images/add_to_cart.svg" alt="" />
+                                В корзину
+                            </button>
+                            
+                            <a href="#" class="btn btn--link">Купить в 1 клик</a>
+                        </div>
+                    </div>
+
+                    <div class="product-tabs">
+                        <div class="tabs">
+                            <button class="tab-btn tab-btn--active" data-tab="description">Описание</button>
+                            <button class="tab-btn" data-tab="specifications">Характеристики</button>
+                            <button class="tab-btn" data-tab="reviews">Отзывы</button>
+                            <button class="tab-btn" data-tab="payment">Оплата</button>
+                            <button class="tab-btn" data-tab="delivery">Доставка</button>
+                        </div>
+                        
+                        <div class="tab-content tab-content--active" id="description">
+                            <div class="product-description">
+                                <h3>Холодный асфальт ВИТОЛИТ</h3>
+                                <p>Холодный асфальт ВИТОЛИТ - это современный материал для ремонта дорожного покрытия, который можно укладывать при температуре от -20°C до +40°C. Материал имеет длительный срок хранения до 12 месяцев и сохраняет пластичность в течение всего периода эксплуатации.</p>
+                                
+                                <h4>Особенности продукта:</h4>
+                                <ul>
+                                    <li>Температурный диапазон укладки: от -20°C до +40°C</li>
+                                    <li>Срок хранения: до 12 месяцев</li>
+                                    <li>Высокая пластичность и адгезия</li>
+                                    <li>Отсутствие запаха</li>
+                                    <li>Не требует праймеров</li>
+                                </ul>
+                                
+                                <h4>Области применения:</h4>
+                                <ul>
+                                    <li>Бетонное покрытие</li>
+                                    <li>Шоссейные дороги</li>
+                                    <li>Аэродромы</li>
+                                    <li>Мосты</li>
+                                    <li>Городские территории</li>
+                                    <li>Плоские кровли</li>
+                                </ul>
+                                
+                                <h4>Конкретные примеры применения:</h4>
+                                <ul>
+                                    <li>Ремонт дорожного покрытия вокруг колодцев</li>
+                                    <li>Траншейный ремонт</li>
+                                    <li>Прокладка дорожек</li>
+                                    <li>Ремонт покрытий складских комплексов</li>
+                                </ul>
+                                
+                                <p><strong>Преимущество:</strong> Не нужно останавливать движение транспорта во время ремонта.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="specifications">
+                            <div class="product-specifications">
+                                <h3>Технические характеристики</h3>
+                                <table class="specs-table">
+                                    <tr>
+                                        <td>Плотность</td>
+                                        <td>2.3-2.4 г/см³</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Температура укладки</td>
+                                        <td>-20°C до +40°C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Срок хранения</td>
+                                        <td>12 месяцев</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Водостойкость</td>
+                                        <td>Высокая</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="reviews">
+                  
+                        </div>
+                        
+                        <div class="tab-content" id="payment">
+                            <div class="product-payment">
+                                <h3>Способы оплаты</h3>
+                                <div class="payment-methods">
+                                    <div class="payment-method">
+                                        <img src="assets/images/payment_1.svg" alt="Наличные" />
+                                        <span>Наличные</span>
+                                    </div>
+                                    <div class="payment-method">
+                                        <img src="assets/images/payment_2.svg" alt="Банковская карта" />
+                                        <span>Банковская карта</span>
+                                    </div>
+                                    <div class="payment-method">
+                                        <img src="assets/images/payment_3.svg" alt="Безналичный расчет" />
+                                        <span>Безналичный расчет</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="delivery">
+                            <div class="product-delivery">
+                                <h3>Условия доставки</h3>
+                                <p>Доставка осуществляется по всей России. Стоимость и сроки доставки зависят от региона.</p>
+                                <img src="assets/images/dostavka.png" alt="Карта доставки" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-page__right">
+                    <div class="product-gallery">
+                        <div class="product-gallery__main swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/images/cat_prod_1.png" alt="Холодный асфальт" class="product-gallery__image" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/cat_prod_2.png" alt="Холодный асфальт" class="product-gallery__image" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/cat_prod_3.png" alt="Холодный асфальт" class="product-gallery__image" />
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                        
+                        <div class="product-gallery__thumbs swiper" thumbsSlider="">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery-thumb">
+                                        <img src="assets/images/cat_prod_1.png" alt="Холодный асфальт" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-thumb">
+                                        <img src="assets/images/cat_prod_2.png" alt="Холодный асфальт" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-thumb">
+                                        <img src="assets/images/cat_prod_3.png" alt="Холодный асфальт" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="bestsellers">
+            <div class="container">
+                <div class="bestsellers__header">
+                    <h2 class="bestsellers__title">
+                        <span class="bestsellers__title-accent">ЛИДЕРЫ</span> ПРОДАЖ
+                    </h2>
+                    <div class="bestsellers__navigation">
+                        <button class="bestsellers__arrow bestsellers__arrow--prev">
+                            <img src="assets/images/arrow_swiper.svg" alt="Назад" />
+                        </button>
+                        <button class="bestsellers__arrow bestsellers__arrow--next">
+                            <img src="assets/images/arrow_swiper.svg" alt="Вперед" />
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="bestsellers__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-card__image">
+                                    <img src="assets/images/cat_prod_1.png" alt="Кварцевый песок фракции 1,00-2,00 мм" />
+                                </div>
+                                <div class="product-card__content">
+                                    <div class="product-card__header">
+                                        <h3 class="product-card__title">Кварцевый песок фракции 1,00-2,00 мм</h3>
+                                        <button class="product-card__favorite">
+                                            <img src="assets/images/favorite.svg" alt="В избранное" />
+                                        </button>
+                                    </div>
+                                    <div class="product-card__availability">В наличии</div>
+                                    <div class="product-card__price">5 000 Р.</div>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__cart-btn">В корзину</button>
+                                        <button class="product-card__buy-btn">Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-card__image">
+                                    <img src="assets/images/cat_prod_2.png" alt="Кварцевый песок фракции 1,00-2,00 мм" />
+                                </div>
+                                <div class="product-card__content">
+                                    <div class="product-card__header">
+                                        <h3 class="product-card__title">Кварцевый песок фракции 1,00-2,00 мм</h3>
+                                        <button class="product-card__favorite">
+                                            <img src="assets/images/favorite.svg" alt="В избранное" />
+                                        </button>
+                                    </div>
+                                    <div class="product-card__availability">В наличии</div>
+                                    <div class="product-card__price">5 000 Р.</div>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__cart-btn">В корзину</button>
+                                        <button class="product-card__buy-btn">Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-card__image">
+                                    <img src="assets/images/cat_prod_3.png" alt="Кварцевый песок фракции 1,00-2,00 мм" />
+                                </div>
+                                <div class="product-card__content">
+                                    <div class="product-card__header">
+                                        <h3 class="product-card__title">Кварцевый песок фракции 1,00-2,00 мм</h3>
+                                        <button class="product-card__favorite">
+                                            <img src="assets/images/favorite.svg" alt="В избранное" />
+                                        </button>
+                                    </div>
+                                    <div class="product-card__availability">В наличии</div>
+                                    <div class="product-card__price">5 000 Р.</div>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__cart-btn">В корзину</button>
+                                        <button class="product-card__buy-btn">Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-card__image">
+                                    <img src="assets/images/cat_prod_4.png" alt="Кварцевый песок фракции 1,00-2,00 мм" />
+                                </div>
+                                <div class="product-card__content">
+                                    <div class="product-card__header">
+                                        <h3 class="product-card__title">Кварцевый песок фракции 1,00-2,00 мм</h3>
+                                        <button class="product-card__favorite">
+                                            <img src="assets/images/favorite.svg" alt="В избранное" />
+                                        </button>
+                                    </div>
+                                    <div class="product-card__availability">В наличии</div>
+                                    <div class="product-card__price">5 000 Р.</div>
+                                    <div class="product-card__actions">
+                                        <button class="product-card__cart-btn">В корзину</button>
+                                        <button class="product-card__buy-btn">Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cooperation-steps">
+            <div class="container">
+              <h2 class="cooperation-steps__title">Этапы сотрудничества</h2>
+              <div class="cooperation-steps__grid">
+                <div class="cooperation-steps__item">
+                  <div class="cooperation-steps__number">01</div>
+                  <div class="cooperation-steps__content">
+                    <h3 class="cooperation-steps__item-title">Заявка по телефону или через сайт</h3>
+                    <button class="cooperation-steps__btn">Оставить заявку</button>
+                  </div>
+                </div>
+                <div class="cooperation-steps__item">
+                  <div class="cooperation-steps__number">02</div>
+                  <div class="cooperation-steps__content">
+                    <h3 class="cooperation-steps__item-title">Согласование объемов и маршрута</h3>
+                  </div>
+                </div>
+                <div class="cooperation-steps__item cooperation-steps__item--active">
+                  <div class="cooperation-steps__number">03</div>
+                  <div class="cooperation-steps__content">
+                    <h3 class="cooperation-steps__item-title">Расчет стоимости</h3>
+                  </div>
+                </div>
+                <div class="cooperation-steps__item">
+                  <div class="cooperation-steps__number">04</div>
+                  <div class="cooperation-steps__content">
+                    <h3 class="cooperation-steps__item-title">Оплата и доставка</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="gallery">
+            <div class="container">
+              <h2 class="gallery__title">Наши <span class="gallery__title-accent">фотографии</span></h2>
+              <div class="gallery__grid">
+                <div class="gallery__item gallery__item--side">
+                  <img src="assets/images/cat_prod_1.png" alt="Фото карьера">
+                </div>
+                <div class="gallery__item gallery__item--main">
+                  <img src="assets/images/cat_prod_2.png" alt="Основное фото карьера">
+                  <button class="gallery__btn gallery__btn--prev">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                  </button>
+                  <button class="gallery__btn gallery__btn--next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="gallery__item gallery__item--side">
+                  <img src="assets/images/cat_prod_3.png" alt="Фото карьера">
+                </div>
+              </div>
+              <div class="gallery__dots">
+                <button class="gallery__dot gallery__dot--active"></button>
+                <button class="gallery__dot"></button>
+                <button class="gallery__dot"></button>
+              </div>
+            </div>
+          </section>
+
+          <section class="order-form">
+            <div class="container">
+              <div class="order-form__content">
+                <h2 class="order-form__title">ЗАКАЗАТЬ ДОСТАВКУ ПЕСКА</h2>
+                <form class="order-form__form">
+                  <div class="order-form__fields">
+                    <input type="text" class="order-form__input" placeholder="Ваше имя" required>
+                    <input type="tel" class="order-form__input" placeholder="Телефон" required>
+                    <button type="submit" class="order-form__submit">Отправить</button>
+                  </div>
+                  <div class="order-form__agreement">
+                    <label class="order-form__checkbox">
+                      <input type="checkbox" required>
+                      <span class="order-form__checkmark"></span>
+                      <span class="order-form__text">
+                        Нажимая кнопку «Отправить», я соглашаюсь с <a href="#" class="order-form__link">политикой конфиденциальности</a>
+                      </span>
+                    </label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+      
+          <section class="faq">
+            <div class="container">
+              <div class="faq__content">
+                <div class="faq__left">
+                  <h2 class="faq__title">ОТВЕТЫ НА <span>ВОПРОСЫ</span></h2>
+                  
+                  <div class="faq__tabs">
+                    <button class="faq__tab faq__tab--active" data-tab="conditions">Условия сотрудничества</button>
+                    <button class="faq__tab" data-tab="products">Продукция</button>
+                    <button class="faq__tab" data-tab="delivery">Доставка и логистика</button>
+                    <button class="faq__tab" data-tab="payment">Оплата и доставка</button>
+                  </div>
+      
+                  <div class="faq__questions">
+                    <div class="faq__question faq__question--active">
+                      <button class="faq__question-btn">
+                        <span>Какие виды нерудных материалов вы производите?</span>
+                        <svg class="faq__arrow" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                      </button>
+                      <div class="faq__answer">
+                        <p>Наш завод производит различные виды нерудных материалов для строительства и промышленности. Мы предлагаем кварцевый песок разных фракций от 0,1 до 5 мм, который используется в строительных смесях, фильтрации воды, пескоструйных работах и ландшафтном дизайне.</p>
+                        <p>В нашем ассортименте также имеется щебень различных типов - гранитный, гравийный и известняковый, фракцией от 5 до 70 мм, который применяется при изготовлении бетона, строительстве дорог и обустройстве дренажных систем.</p>
+                      </div>
+                    </div>
+      
+                    <div class="faq__question">
+                      <button class="faq__question-btn">
+                        <span>Какие виды нерудных материалов вы производите?</span>
+                        <svg class="faq__arrow" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                      </button>
+                      <div class="faq__answer">
+                        <p>Контент второго вопроса...</p>
+                      </div>
+                    </div>
+      
+                    <div class="faq__question">
+                      <button class="faq__question-btn">
+                        <span>Какие виды нерудных материалов вы производите?</span>
+                        <svg class="faq__arrow" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                      </button>
+                      <div class="faq__answer">
+                        <p>Контент третьего вопроса...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="faq__right">
+                  <div class="callback-widget">
+                    <div class="callback-widget__content">
+                      <h3 class="callback-widget__title">У ВАС ОСТАЛИСЬ<br>ВОПРОСЫ?</h3>
+                      <p class="callback-widget__text">Закажите обратный звонок<br>либо позвоните нам</p>
+                      <button class="callback-widget__btn">Обратный звонок</button>
+                      <div class="callback-widget__phone">
+                        <span class="callback-widget__phone-label">Номер телефона</span>
+                        <a href="tel:+79552223344" class="callback-widget__phone-number">+7 955 222 33 44</a>
+                      </div>
+                    </div>
+                    <div class="callback-widget__image">
+                      <img src="assets/images/faq.png" alt="Консультант">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <section class="about">
+            <div class="container">
+              <div class="about__content">
+                <div class="about__left">
+                  <div class="about__image">
+                    <img src="assets/images/about.png" alt="Надежный поставщик нерудных материалов">
+                  </div>
+                </div>
+                <div class="about__right">
+                  <h2 class="about__title">
+                    <span class="about__title-accent">НАДЕЖНЫЙ ПОСТАВЩИК</span>
+                    <span class="about__title-main">НЕРУДНЫХ МАТЕРИАЛОВ</span>
+                  </h2>
+                  <div class="about__text">
+                    <p>Мы предлагаем гибкие условия сотрудничества как для крупных строительных компаний, так и для частных заказчиков. Наша собственная автопарк и логистическая служба гарантируют оперативную доставку в любых объемах.</p>
+                    <p>Оставьте заявку на сайте, и наши менеджеры рассчитают стоимость вашего заказа в течение 30 минут.</p>
+                  </div>
+                  <button class="about__expand-btn">
+                    <span>Развернуть</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+          </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="about__contacts-wrapper">
+        <div class="about__contacts">
+          <div class="about__contacts-item">
+            <h3 class="about__contacts-title">
+              <img src="/assets/images/loccaton.svg" alt="" />ОФИС
+            </h3>
+            <p class="about__contacts-text">г. Воронеж, ул Хользунова 40е</p>
+            <p class="about__contacts-time">ПН-ПТ с 8:00 до 18:00</p>
+          </div>
+        </div>
+        <div class="about__contacts">
+          <div class="about__contacts-item">
+            <h3 class="about__contacts-title">
+              <img src="/assets/images/loccaton.svg" alt="" />ЗАВОД
+            </h3>
+            <p class="about__contacts-text">
+              Московская область, Мытищенский район, деревня Сухарево, д. 140,
+              стр. 14
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__map" id="yandex-map"></div>
+
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__grid">
+            <div class="footer__contacts">
+              <a href="mailto:info@tehnokvarc.ru" class="footer__email"
+                >info@tehnokvarc.ru</a
+              >
+              <a href="tel:+79552223344" class="footer__phone"
+                >+7 955 222 33 44</a
+              >
+              <button class="footer__callback-btn">
+                Обратный звонок
+                <img src="/assets/images/phone_footer.svg" alt="" />
+              </button>
+
+              <div class="footer__social">
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/images/vk.svg" alt="" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/images/youtube.svg" alt="" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/images/wt.svg" alt="" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="/assets/images/tg.svg" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__column">
+              <h3 class="footer__column-title">КАТАЛОГ</h3>
+              <ul class="footer__links">
+                <li><a href="#">Кварцевый песок</a></li>
+                <li><a href="#">Кварцевый гравий</a></li>
+                <li><a href="#">Кварцевого песка фракции</a></li>
+                <li><a href="#">Песок навалом</a></li>
+                <li><a href="#">Холодный асфальт</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__column">
+              <h3 class="footer__column-title">ПРАВОВАЯ ИНФОРМАЦИЯ</h3>
+              <ul class="footer__links">
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li>
+                  <a href="#" class="footer__link--accent"
+                    >Обращение в отдел качества</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__column">
+              <h3 class="footer__column-title">НАВИГАЦИЯ</h3>
+              <ul class="footer__links">
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Производство</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <div class="footer__copyright">
+              © 2025 ТД ТехноКварц. Все права защищены
+            </div>
+            <div class="footer__payments">
+              <img
+                src="assets/images/payment_1.svg"
+                alt="Visa"
+                class="footer__payment-icon"
+              />
+              <img
+                src="assets/images/payment_2.svg"
+                alt="Mastercard"
+                class="footer__payment-icon"
+              />
+              <img
+                src="assets/images/payment_3.svg"
+                alt="МИР"
+                class="footer__payment-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__copyright">© 2025 ТД ТехноКварц. Все права защищены</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Мобильный селектор фасовки -->
+    <div class="mobile-selector-overlay" id="mobileSelectorOverlay">
+        <div class="mobile-selector" id="mobileSelector">
+            <div class="mobile-selector__header">
+                <h3 class="mobile-selector__title">Выберите фасовку</h3>
+                <button class="mobile-selector__close" id="mobileSelectorClose">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile-selector__content">
+                <div class="mobile-selector__options">
+                    <label class="mobile-selector__option">
+                        <input type="radio" name="mobile-fasovka" value="1000" class="mobile-selector__radio" />
+                        <span class="mobile-selector__text">1000 кг</span>
+                    </label>
+                    <label class="mobile-selector__option">
+                        <input type="radio" name="mobile-fasovka" value="500" class="mobile-selector__radio" checked />
+                        <span class="mobile-selector__text">500 кг</span>
+                    </label>
+                    <label class="mobile-selector__option">
+                        <input type="radio" name="mobile-fasovka" value="250" class="mobile-selector__radio" />
+                        <span class="mobile-selector__text">250 кг</span>
+                    </label>
+                    <label class="mobile-selector__option">
+                        <input type="radio" name="mobile-fasovka" value="100" class="mobile-selector__radio" />
+                        <span class="mobile-selector__text">100 кг</span>
+                    </label>
+                    <label class="mobile-selector__option">
+                        <input type="radio" name="mobile-fasovka" value="25" class="mobile-selector__radio" />
+                        <span class="mobile-selector__text">25 кг</span>
+                    </label>
+                </div>
+                <button class="mobile-selector__confirm">Выбрать</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
